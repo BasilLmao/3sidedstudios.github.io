@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Font';
+    src: url('SiteFont.ttf') format('truetype');
+}
+
+.title-bar {
+    border-radius: 25px;
+    background-color: #78b7ff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for the body content */
+.content {
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+body {
+    font-family: 'Font', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0d4483;
+ }
+
+
